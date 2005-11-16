@@ -2,6 +2,7 @@
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 Summary:	Ordered Hash for Ruby
+Summary(pl):	Uporz±dkowane hasze dla jêzyka Ruby
 Name:		ruby-OrderedHash
 Version:	1.2005.8.16
 Release:	1
@@ -18,6 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Hash with preserved order (like Array in php)
+
+%description -l pl
+Hasze z zachowan± kolejno¶ci± (podobne do Array w php).
 
 %prep
 %setup -q -c
