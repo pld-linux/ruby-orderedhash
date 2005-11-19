@@ -1,6 +1,3 @@
-%define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
-%define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 Summary:	Ordered Hash for Ruby
 Summary(pl):	Uporz±dkowane hasze dla jêzyka Ruby
 Name:		ruby-OrderedHash
@@ -10,7 +7,8 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://simplypowerful.1984.cz/orderedhash/%{version}/orderedhash.tgz
 # Source0-md5:	eac01684b6fb3c4c56a69e8acfebb704
-URL:	http://simplypowerful.1984.cz/orderedhash/1.2005.8.16/doc/
+URL:		http://simplypowerful.1984.cz/orderedhash/1.2005.8.16/doc/
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
