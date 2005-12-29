@@ -8,9 +8,9 @@ Group:		Development/Languages
 Source0:	http://simplypowerful.1984.cz/orderedhash/%{version}/orderedhash.tgz
 # Source0-md5:	eac01684b6fb3c4c56a69e8acfebb704
 URL:		http://simplypowerful.1984.cz/orderedhash/1.2005.8.16/doc/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
