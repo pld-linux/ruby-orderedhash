@@ -10,7 +10,7 @@ Source0:	http://simplypowerful.1984.cz/orderedhash/%{version}/orderedhash.tgz
 URL:		http://simplypowerful.1984.cz/orderedhash/1.2005.8.16/doc/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
