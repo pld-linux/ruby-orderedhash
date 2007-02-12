@@ -1,5 +1,5 @@
 Summary:	Ordered Hash for Ruby
-Summary(pl.UTF-8):   Uporządkowane hasze dla języka Ruby
+Summary(pl.UTF-8):	Uporządkowane hasze dla języka Ruby
 Name:		ruby-OrderedHash
 Version:	1.2005.8.16
 Release:	2
