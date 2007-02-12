@@ -1,5 +1,5 @@
 Summary:	Ordered Hash for Ruby
-Summary(pl):	Uporz±dkowane hasze dla jêzyka Ruby
+Summary(pl.UTF-8):   UporzÄ…dkowane hasze dla jÄ™zyka Ruby
 Name:		ruby-OrderedHash
 Version:	1.2005.8.16
 Release:	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Hash with preserved order (like Array in php)
 
-%description -l pl
-Hasze z zachowan± kolejno¶ci± (podobne do Array w php).
+%description -l pl.UTF-8
+Hasze z zachowanÄ… kolejnoÅ›ciÄ… (podobne do Array w php).
 
 %prep
 %setup -q -c
