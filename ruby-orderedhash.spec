@@ -1,6 +1,7 @@
+%define pkgname orderedhash
 Summary:	Ordered Hash for Ruby
 Summary(pl.UTF-8):	Uporządkowane hasze dla języka Ruby
-Name:		ruby-OrderedHash
+Name:		ruby-%{pkgname}
 Version:	1.2005.8.16
 Release:	2
 License:	GPL
@@ -11,6 +12,7 @@ URL:		http://simplypowerful.1984.cz/orderedhash/1.2005.8.16/doc/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 %{?ruby_mod_ver_requires_eq}
+Obsoletes:	ruby-OrderedHash
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
